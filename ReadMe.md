@@ -15,14 +15,14 @@ user event log is of `2 months` at **mini_sparkify_event_data.json** as part of 
 >>   Our aim is to predict the `user churn` using Machine learning modelling`
 
 ## Files in the Github Repo
-  * [Sparikfy Main Jupyiter Notebook](----- place git path here ------) -- The main Juypiter notebook of this project. Work on Data wrangling, EDA, Model evaluation and training
-  * [Sparikfy IBM Cloud Notebook]( ----- place git path here ------) -- Jupytier notebook build in IBM Cloud Watson Studio based on **medium-sparkify-event-data.json** file of size 225mb. 
-  The notebooks has only data analayis part based on **medium-sparkify-event-data.json** data. I ran out of free tier processing units on IBM cloud and had to continue the rest of the project on Udacity workspace. 
-  * [Sparkify mini user log Zip](----- place git path here ------) -- Zip file Data used for analysis is **mini_sparkify_event_data.json** ~10.6 MB
-  * [Libraries and Versions](----- place git path here ------) -- The list of libraries in the enviroments used for the project and their versions 
-  * [ReadMe.md](----- place git path here ------): This file.
-  * .gitignore - Ignore this file, created by Git for its internal processing
-  
+  * [Sparikfy Main Jupyiter Notebook](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/Sparkify.ipynb) -- The main Juypiter notebook of this project. Work on Data wrangling, EDA, Model evaluation and training
+  * [Sparikfy IBM Cloud Notebook](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/Sparkify%20IBM%20Cloud.ipynb) -- Jupytier notebook build in IBM Cloud Watson Studio based on **medium-sparkify-event-data.json** 
+  with a file of size around `225 MB`. The notebooks has only data analayis part based on **medium-sparkify-event-data.json** dataset. 
+  I ran out of free tier processing units on IBM cloud and had to continue the rest of the project on Udacity workspace. 
+  * [Sparkify mini user log Zip](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/mini_sparkify_event_data.zip) -- Zip file Data used for analysis is **mini_sparkify_event_data.json** ~10.6 MB
+  * [Libraries and Versions](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/lib_version.txt) -- This is text file with the list of libraries in the enviroments used for the project and their versions 
+  * [ReadMe.md](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/ReadMe.md): This file.
+    
 ## Prerequesite Software 
 - Anacoda 4.x or above / IBM watson studio / AWS EMR (Machine learning run time environment )
 - Python 3.6.x (Programming language libraries)
