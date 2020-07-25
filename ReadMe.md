@@ -16,6 +16,7 @@ user event log is of `2 months` at **mini_sparkify_event_data.json** as part of 
 
 ## Files in the Github Repo
   * [Sparikfy Main Jupyiter Notebook](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/Sparkify.ipynb) -- The main Juypiter notebook of this project. Work on Data wrangling, EDA, Model evaluation and training
+  * [Sparikfy Output](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/Sparkify.html) -- Sparkify outputs of notebook as HTML page.
   * [Sparikfy IBM Cloud Notebook](https://github.com/sureshbabukannan/SparkifyUserChrun/blob/master/Sparkify%20IBM%20Cloud.ipynb) -- Jupytier notebook build in IBM Cloud Watson Studio based on **medium-sparkify-event-data.json** 
   with a file of size around `225 MB`. The notebooks has only data analayis part based on **medium-sparkify-event-data.json** dataset. 
   I ran out of free tier processing units on IBM cloud and had to continue the rest of the project on Udacity workspace. 
@@ -57,8 +58,8 @@ df = spark.read.json('<your_json_file_name_here.json>')
 **Evaluate algorithms and build a machine learning model to predict the users churn** using the user event log data. Choose a best model and predict user who could churn using the model.
 
 ## Metrics to Evaluate Model
-The dataset taken for analyis is imbalanced dataset with only around `10%` cancelled user. As the dataset is heavily imbalanced to existing customers
-`F1-score` or `Harmonic Mean` is as used a primary metrics to evaluate the model.
+The dataset taken for analyis is imbalanced dataset with only around `23%` cancelled user. As the dataset is slightly imbalanced 
+to existing customers `F1-score` or `Harmonic Mean` is as used a primary metrics to evaluate the model.
 
 ## Data Analysis
 These are the fields of the **user log** provide as json file **mini-sparkify-event-data.json**
@@ -254,8 +255,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Credits
-
-* I have heavily referenced [sparkify by drnesr](https://github.com/drnesr/Sparkify) to complete the models. 
 
 * I have heavily referenced online documentation of pySpark, Pandas, Stackoverflow, Databrick and other techincal content online
 
