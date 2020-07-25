@@ -261,5 +261,4 @@ SOFTWARE.
 * The license text choosen from [choosealicense](https://choosealicense.com/licenses/mit/)
 
 
-**For further information on the Data Analysis and Machine learing modeling outtcome please refer to [The Sparkify blog](--- Blog hyperlink here ---).**
-
+**For further information on the Data Analysis and Machine learing modeling outtcome please refer to [The Sparkify blog](https://sureshbabukannan.github.io/SparkifyBlog/).**
