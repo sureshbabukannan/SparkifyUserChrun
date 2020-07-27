@@ -2,7 +2,7 @@
 ### For final project of Datascientist Nanodegree by [Udacity](https://www.udacity.com/course/data-scientist-nanodegree--nd025)
 
 ## Project Overview
-Sparkify is a fictious online Music poral for sogns and music. The user are can listen to sogns and music as `Guest` or `Registered` users.
+Sparkify is a fictious online Music poral for sogns and music. The user are can listen to songs and music as `Guest` or `Registered` users.
 
 The registered user can be `free` or `paid` level users.  The users, can `listen`, `add a friend`, `thumps up`, `thumbs down` to a song. 
 User can also `Upgrade` to paid subscription and `Upgrade` multiple levels of subscription, `Downgrade` to lower paid level `Downgrade` free level 
