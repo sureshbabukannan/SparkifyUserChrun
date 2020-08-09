@@ -317,13 +317,10 @@ There are `4` binary classification algorthms used to evaluate the metrics. Out 
 proved to be better in all metrics, with F1 score of `0.40` on Validation data and `0.43` on training data. However, There is scope to do further 
 hyperparameter tuning and also fit the model with larger dataset.
 
-Initial, I set out to work with mini-sparkify-event-data.json to understand data with EDA and algorithm suitable for this data. I used 3 stagergies to model the data.
+Initial, I set out to work with mini-sparkify-event-data.json to understand data with EDA and algorithm suitable for this data. 
+I used 3 stagergies for modelling as described above.
 
-    I used same set of features but with per day per user basis and trained the features with this model.
-    I used the same set of features but with per user basis without splitting them on per day basis with standard scaling of features.
-    I used the same set of features but with per user basis without splitting them on per day basis but without the standard scaling of features Strategy#3 gave a f1 score of 0.51 with mini-sparkify-event-data.json
-
-    I uses the Strategy#3 but with medium-sparkify-event-data.json dataset on IBM cloud which gave F1 score of 0.40.
+    I uses the Strategy#3 but with medium-sparkify-event-data.json dataset on IBM Watson studio which gave F1 score of 0.40.
     It is recommended to use Gradient Boosted tree and Decision Trees Classifier for further hyperparameter tuning and fitting with full dataset for better F1 score.
 
 Further, The model also needs to be pacakged as class and pacakges for deployment.
