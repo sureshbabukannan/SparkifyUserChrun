@@ -310,7 +310,7 @@ In this approach best model is `Decision Trees Classsifer` with F1 score of `0.5
 
 ##### Based on the 3 different stretegies `Stategy #3` is choose for run with IBM watson studio training with `medium-sparkify-event-data.json` 
 
-#### Conclusion
+## Conclusion
 The experiment is done with a small set of data of `2` months. The features were computed per user basis. 
 There are `29` features extracted from raw log data. The featured dataframe is then used to for ML modelling. 
 There are `4` binary classification algorthms used to evaluate the metrics. Out of 4 models **Gradient Boosted tree and Decision Trees Classifier**
